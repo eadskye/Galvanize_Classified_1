@@ -4,7 +4,7 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "heroku-postbuild": "knex migrate:latest",
+  
     "start": "node server.js",
     "test": "mocha"
   },
