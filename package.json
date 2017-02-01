@@ -6,7 +6,8 @@
   "scripts": {
 
     "start": "node server.js",
-    "test": "mocha"
+    "test": "mocha",
+    "heroku-postbuild": "knex migrate:latest"
   },
 
   "keywords": [],
@@ -24,5 +25,5 @@
     "mocha": "^3.2.0",
     "supertest": "^2.0.1"
   }
-  
+
 }
